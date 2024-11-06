@@ -3,13 +3,10 @@
   "image": "mcr.microsoft.com/devcontainers/cpp:latest",
   "extensions": [
     "ms-vscode.cpptools",
-    "ms-vscode.makefile-tools"
+    "ms-vscode.cmake-tools"
   ],
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "editor.tabSize": 4,
-    "editor.rulers": [80],
-    "editor.renderWhitespace": "all"
+    // Your editor settings here
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential"
 }
