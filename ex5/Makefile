@@ -11,8 +11,8 @@ TARGET = main
 all: $(TARGET)
 
 $(TARGET): main.c
-    $(CC) $(CFLAGS) -o $(TARGET) main.c
+	$(CC) $(CFLAGS) -o $(TARGET) main.c
 
 # Clean up build files
 clean:
-    rm -f $(TARGET)
+	rm -f $(TARGET)
